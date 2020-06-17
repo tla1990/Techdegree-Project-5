@@ -29,21 +29,18 @@ Search Box
 /***********
   Gallery
 ************/
-.container{
+.container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  max width: 1024px;
 }
 .item {
+  margin: 20px 10px;
   padding: 10px;
-  align-items: center;
 }
 
-.row1,
-.row2,
-.row3 {
-  flex-direction: column;
-}
 
 
 
