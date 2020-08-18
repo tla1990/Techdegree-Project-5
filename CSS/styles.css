@@ -1,0 +1,57 @@
+
+/******
+General
+******/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/*********
+Search Box
+**********/
+.box{
+  text-align: center;
+}
+#search {
+  border-color: lightgrey;
+  border-radius:5px;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  font-size: 16px;
+  width: 400px;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+/***********
+  Gallery
+************/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  max-width: 1024px;
+}
+.item {
+  margin: 20px 10px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************
+Media Queries
+*************/
